@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">YandexWebView</string>
+    <string name="exit_question">Выйти из приложения?</string>
+    <string name="yes">Да</string>
+    <string name="not">Нет</string>
+</resources>
