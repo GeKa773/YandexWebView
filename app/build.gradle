@@ -18,6 +18,16 @@ android {
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
 
+    signingConfigs {
+        release {
+            keyAlias "YandexWebView"
+            keyPassword "11223344a"
+            storeFile file('keys.jks')
+            storePassword "11223344a"
+        }
+
+    }
+
     buildTypes {
         release {
             minifyEnabled false
